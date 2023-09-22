@@ -1,13 +1,19 @@
-div {
-  background-color: lightyellow;
+.accordion .item .accordion-collapse{
+  transition: all .4s ease
 }
 
-.header {
-  width:75%;
-  background-color: lightblue;
+.accordion:last-child .item{
+  border-top: 2px dashed #d3d3d3;
 }
 
-.jenny {
-  width:75%;
-  background-color: lightpink;
-} 
+
+/* #accordion > div {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+} */
+
+/* #9A2540
+#E08685
+#fcdde2 */
